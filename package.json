@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/streams-node",
-  "version": "0.0.6",
+  "version": "0.0.0",
   "description": "Node.js streams.",
   "license": "Apache-2.0",
   "author": {
@@ -83,6 +83,7 @@
     "@stdlib/process-exec-path": "^0.0.x",
     "@stdlib/random-base-randu": "^0.0.x",
     "@stdlib/random-iter-randu": "^0.0.x",
+    "@stdlib/string-format": "^0.0.x",
     "@stdlib/utils-copy": "^0.0.x",
     "@stdlib/utils-define-nonenumerable-property": "^0.0.x",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.0.x",
