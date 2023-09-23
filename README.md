@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import streams from 'https://cdn.jsdelivr.net/gh/stdlib-js/streams-node@esm/index.mjs';
+import streams from 'https://cdn.jsdelivr.net/gh/stdlib-js/streams-node@v0.1.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { arrayStream, circularArrayStream, constantStream, debugSinkStream, debugStream, emptyStream, inspectSinkStream, inspectStream, iteratorStream, joinStream, splitStream, stderr, stdin, stdout, stridedArrayStream, transformStream } from 'https://cdn.jsdelivr.net/gh/stdlib-js/streams-node@esm/index.mjs';
+import { arrayStream, circularArrayStream, constantStream, debugSinkStream, debugStream, emptyStream, inspectSinkStream, inspectStream, iteratorStream, joinStream, splitStream, stderr, stdin, stdout, stridedArrayStream, transformStream } from 'https://cdn.jsdelivr.net/gh/stdlib-js/streams-node@v0.1.0-esm/index.mjs';
 ```
 
 #### streams
@@ -106,7 +106,7 @@ The package contains the following streams:
 <script type="module">
 
 import getKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import streams from 'https://cdn.jsdelivr.net/gh/stdlib-js/streams-node@esm/index.mjs';
+import streams from 'https://cdn.jsdelivr.net/gh/stdlib-js/streams-node@v0.1.0-esm/index.mjs';
 
 console.log( getKeys( streams ) );
 
