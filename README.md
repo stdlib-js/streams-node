@@ -18,44 +18,47 @@ limitations under the License.
 
 -->
 
+
+<details>
+  <summary>
+    About stdlib...
+  </summary>
+  <p>We believe in a future in which the web is a preferred environment for numerical computation. To help realize this future, we've built stdlib. stdlib is a standard library, with an emphasis on numerical and scientific computation, written in JavaScript (and C) for execution in browsers and in Node.js.</p>
+  <p>The library is fully decomposable, being architected in such a way that you can swap out and mix and match APIs and functionality to cater to your exact preferences and use cases.</p>
+  <p>When you use stdlib, you can be absolutely certain that you are using the most thorough, rigorous, well-written, studied, documented, tested, measured, and high-quality code out there.</p>
+  <p>To join us in bringing numerical computing to the web, get started by checking us out on <a href="https://github.com/stdlib-js/stdlib">GitHub</a>, and please consider <a href="https://opencollective.com/stdlib">financially supporting stdlib</a>. We greatly appreciate your continued support!</p>
+</details>
+
 # Node Streams
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Node.js streams.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/streams-node
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-streams = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/streams-node@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var streams = require( 'path/to/vendor/umd/streams-node/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/streams-node@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.streams;
-})();
-</script>
+var streams = require( '@stdlib/streams-node' );
 ```
 
 #### streams
@@ -106,21 +109,11 @@ The package contains the following streams:
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/streams-node@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var getKeys = require( '@stdlib/utils-keys' );
+var streams = require( '@stdlib/streams-node' );
 
 console.log( getKeys( streams ) );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -174,8 +167,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/streams-node.svg
 [npm-url]: https://npmjs.org/package/@stdlib/streams-node
 
-[test-image]: https://github.com/stdlib-js/streams-node/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/streams-node/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/streams-node/actions/workflows/test.yml/badge.svg?branch=v0.1.0
+[test-url]: https://github.com/stdlib-js/streams-node/actions/workflows/test.yml?query=branch:v0.1.0
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/streams-node/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/streams-node?branch=main
@@ -206,37 +199,37 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/streams/node/debug-sink]: https://github.com/stdlib-js/streams-node-debug-sink/tree/umd
+[@stdlib/streams/node/debug-sink]: https://github.com/stdlib-js/streams-node-debug-sink
 
-[@stdlib/streams/node/debug]: https://github.com/stdlib-js/streams-node-debug/tree/umd
+[@stdlib/streams/node/debug]: https://github.com/stdlib-js/streams-node-debug
 
-[@stdlib/streams/node/empty]: https://github.com/stdlib-js/streams-node-empty/tree/umd
+[@stdlib/streams/node/empty]: https://github.com/stdlib-js/streams-node-empty
 
-[@stdlib/streams/node/from-array]: https://github.com/stdlib-js/streams-node-from-array/tree/umd
+[@stdlib/streams/node/from-array]: https://github.com/stdlib-js/streams-node-from-array
 
-[@stdlib/streams/node/from-circular-array]: https://github.com/stdlib-js/streams-node-from-circular-array/tree/umd
+[@stdlib/streams/node/from-circular-array]: https://github.com/stdlib-js/streams-node-from-circular-array
 
-[@stdlib/streams/node/from-constant]: https://github.com/stdlib-js/streams-node-from-constant/tree/umd
+[@stdlib/streams/node/from-constant]: https://github.com/stdlib-js/streams-node-from-constant
 
-[@stdlib/streams/node/from-iterator]: https://github.com/stdlib-js/streams-node-from-iterator/tree/umd
+[@stdlib/streams/node/from-iterator]: https://github.com/stdlib-js/streams-node-from-iterator
 
-[@stdlib/streams/node/from-strided-array]: https://github.com/stdlib-js/streams-node-from-strided-array/tree/umd
+[@stdlib/streams/node/from-strided-array]: https://github.com/stdlib-js/streams-node-from-strided-array
 
-[@stdlib/streams/node/inspect-sink]: https://github.com/stdlib-js/streams-node-inspect-sink/tree/umd
+[@stdlib/streams/node/inspect-sink]: https://github.com/stdlib-js/streams-node-inspect-sink
 
-[@stdlib/streams/node/inspect]: https://github.com/stdlib-js/streams-node-inspect/tree/umd
+[@stdlib/streams/node/inspect]: https://github.com/stdlib-js/streams-node-inspect
 
-[@stdlib/streams/node/join]: https://github.com/stdlib-js/streams-node-join/tree/umd
+[@stdlib/streams/node/join]: https://github.com/stdlib-js/streams-node-join
 
-[@stdlib/streams/node/split]: https://github.com/stdlib-js/streams-node-split/tree/umd
+[@stdlib/streams/node/split]: https://github.com/stdlib-js/streams-node-split
 
-[@stdlib/streams/node/stderr]: https://github.com/stdlib-js/streams-node-stderr/tree/umd
+[@stdlib/streams/node/stderr]: https://github.com/stdlib-js/streams-node-stderr
 
-[@stdlib/streams/node/stdin]: https://github.com/stdlib-js/streams-node-stdin/tree/umd
+[@stdlib/streams/node/stdin]: https://github.com/stdlib-js/streams-node-stdin
 
-[@stdlib/streams/node/stdout]: https://github.com/stdlib-js/streams-node-stdout/tree/umd
+[@stdlib/streams/node/stdout]: https://github.com/stdlib-js/streams-node-stdout
 
-[@stdlib/streams/node/transform]: https://github.com/stdlib-js/streams-node-transform/tree/umd
+[@stdlib/streams/node/transform]: https://github.com/stdlib-js/streams-node-transform
 
 <!-- </toc-links> -->
 
