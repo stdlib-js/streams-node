@@ -35,20 +35,30 @@ limitations under the License.
 
 > Node.js streams.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/streams-node
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import streams from 'https://cdn.jsdelivr.net/gh/stdlib-js/streams-node@esm/index.mjs';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { arrayStream, circularArrayStream, constantStream, debugSinkStream, debugStream, emptyStream, inspectSinkStream, inspectStream, iteratorStream, joinStream, splitStream, stderr, stdin, stdout, stridedArrayStream, transformStream } from 'https://cdn.jsdelivr.net/gh/stdlib-js/streams-node@esm/index.mjs';
+var streams = require( '@stdlib/streams-node' );
 ```
 
 #### streams
@@ -99,20 +109,11 @@ The package contains the following streams:
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import getKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import streams from 'https://cdn.jsdelivr.net/gh/stdlib-js/streams-node@esm/index.mjs';
+```javascript
+var getKeys = require( '@stdlib/utils-keys' );
+var streams = require( '@stdlib/streams-node' );
 
 console.log( getKeys( streams ) );
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -136,7 +137,7 @@ console.log( getKeys( streams ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -153,7 +154,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -198,37 +199,37 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/streams/node/debug-sink]: https://github.com/stdlib-js/streams-node-debug-sink/tree/esm
+[@stdlib/streams/node/debug-sink]: https://github.com/stdlib-js/streams-node-debug-sink
 
-[@stdlib/streams/node/debug]: https://github.com/stdlib-js/streams-node-debug/tree/esm
+[@stdlib/streams/node/debug]: https://github.com/stdlib-js/streams-node-debug
 
-[@stdlib/streams/node/empty]: https://github.com/stdlib-js/streams-node-empty/tree/esm
+[@stdlib/streams/node/empty]: https://github.com/stdlib-js/streams-node-empty
 
-[@stdlib/streams/node/from-array]: https://github.com/stdlib-js/streams-node-from-array/tree/esm
+[@stdlib/streams/node/from-array]: https://github.com/stdlib-js/streams-node-from-array
 
-[@stdlib/streams/node/from-circular-array]: https://github.com/stdlib-js/streams-node-from-circular-array/tree/esm
+[@stdlib/streams/node/from-circular-array]: https://github.com/stdlib-js/streams-node-from-circular-array
 
-[@stdlib/streams/node/from-constant]: https://github.com/stdlib-js/streams-node-from-constant/tree/esm
+[@stdlib/streams/node/from-constant]: https://github.com/stdlib-js/streams-node-from-constant
 
-[@stdlib/streams/node/from-iterator]: https://github.com/stdlib-js/streams-node-from-iterator/tree/esm
+[@stdlib/streams/node/from-iterator]: https://github.com/stdlib-js/streams-node-from-iterator
 
-[@stdlib/streams/node/from-strided-array]: https://github.com/stdlib-js/streams-node-from-strided-array/tree/esm
+[@stdlib/streams/node/from-strided-array]: https://github.com/stdlib-js/streams-node-from-strided-array
 
-[@stdlib/streams/node/inspect-sink]: https://github.com/stdlib-js/streams-node-inspect-sink/tree/esm
+[@stdlib/streams/node/inspect-sink]: https://github.com/stdlib-js/streams-node-inspect-sink
 
-[@stdlib/streams/node/inspect]: https://github.com/stdlib-js/streams-node-inspect/tree/esm
+[@stdlib/streams/node/inspect]: https://github.com/stdlib-js/streams-node-inspect
 
-[@stdlib/streams/node/join]: https://github.com/stdlib-js/streams-node-join/tree/esm
+[@stdlib/streams/node/join]: https://github.com/stdlib-js/streams-node-join
 
-[@stdlib/streams/node/split]: https://github.com/stdlib-js/streams-node-split/tree/esm
+[@stdlib/streams/node/split]: https://github.com/stdlib-js/streams-node-split
 
-[@stdlib/streams/node/stderr]: https://github.com/stdlib-js/streams-node-stderr/tree/esm
+[@stdlib/streams/node/stderr]: https://github.com/stdlib-js/streams-node-stderr
 
-[@stdlib/streams/node/stdin]: https://github.com/stdlib-js/streams-node-stdin/tree/esm
+[@stdlib/streams/node/stdin]: https://github.com/stdlib-js/streams-node-stdin
 
-[@stdlib/streams/node/stdout]: https://github.com/stdlib-js/streams-node-stdout/tree/esm
+[@stdlib/streams/node/stdout]: https://github.com/stdlib-js/streams-node-stdout
 
-[@stdlib/streams/node/transform]: https://github.com/stdlib-js/streams-node-transform/tree/esm
+[@stdlib/streams/node/transform]: https://github.com/stdlib-js/streams-node-transform
 
 <!-- </toc-links> -->
 
