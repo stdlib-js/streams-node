@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import streams from 'https://cdn.jsdelivr.net/gh/stdlib-js/streams-node@deno/mod.js';
+import streams from 'https://cdn.jsdelivr.net/gh/stdlib-js/streams-node@v0.2.2-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { arrayStream, circularArrayStream, constantStream, debugSinkStream, debugStream, emptyStream, inspectSinkStream, inspectStream, iteratorStream, joinStream, splitStream, stderr, stdin, stdout, stridedArrayStream, transformStream } from 'https://cdn.jsdelivr.net/gh/stdlib-js/streams-node@deno/mod.js';
+import { arrayStream, circularArrayStream, constantStream, debugSinkStream, debugStream, emptyStream, inspectSinkStream, inspectStream, iteratorStream, joinStream, splitStream, stderr, stdin, stdout, stridedArrayStream, transformStream } from 'https://cdn.jsdelivr.net/gh/stdlib-js/streams-node@v0.2.2-deno/mod.js';
 ```
 
 #### streams
@@ -101,7 +101,7 @@ The package contains the following streams:
 
 ```javascript
 import getKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import streams from 'https://cdn.jsdelivr.net/gh/stdlib-js/streams-node@deno/mod.js';
+import streams from 'https://cdn.jsdelivr.net/gh/stdlib-js/streams-node@v0.2.2-deno/mod.js';
 
 console.log( getKeys( streams ) );
 ```
