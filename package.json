@@ -36,8 +36,8 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/streams-node-debug": "^0.2.1",
-    "@stdlib/streams-node-debug-sink": "^0.2.1",
+    "@stdlib/streams-node-debug": "^0.2.2",
+    "@stdlib/streams-node-debug-sink": "^0.2.2",
     "@stdlib/streams-node-empty": "^0.2.2",
     "@stdlib/streams-node-from-array": "^0.2.2",
     "@stdlib/streams-node-from-circular-array": "^0.2.2",
@@ -56,7 +56,7 @@
   },
   "devDependencies": {
     "@stdlib/array-float64": "^0.2.2",
-    "@stdlib/array-to-iterator": "^0.2.1",
+    "@stdlib/array-to-iterator": "^0.2.2",
     "@stdlib/array-uint8": "^0.2.2",
     "@stdlib/assert-has-own-property": "^0.2.2",
     "@stdlib/assert-is-boolean": "^0.2.2",
@@ -95,7 +95,7 @@
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
-    "@stdlib/bench-harness": "^0.2.1"
+    "@stdlib/bench-harness": "^0.2.2"
   },
   "engines": {
     "node": ">=0.10.0",
