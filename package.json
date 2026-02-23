@@ -55,9 +55,9 @@
     "@stdlib/utils-define-read-only-property": "^0.2.3"
   },
   "devDependencies": {
-    "@stdlib/array-float64": "^0.2.2",
-    "@stdlib/array-to-iterator": "^0.2.2",
-    "@stdlib/array-uint8": "^0.2.2",
+    "@stdlib/array-float64": "^0.2.3",
+    "@stdlib/array-to-iterator": "^0.2.3",
+    "@stdlib/array-uint8": "^0.2.3",
     "@stdlib/assert-has-own-property": "^0.2.3",
     "@stdlib/assert-is-boolean": "^0.2.3",
     "@stdlib/assert-is-browser": "^0.2.3",
@@ -74,15 +74,15 @@
     "@stdlib/assert-is-string": "^0.2.3",
     "@stdlib/assert-is-uint8array": "^0.2.3",
     "@stdlib/assert-is-windows": "^0.2.3",
-    "@stdlib/blas-base-gcopy": "^0.2.2",
-    "@stdlib/buffer-ctor": "^0.2.2",
+    "@stdlib/blas-base-gcopy": "^0.2.3",
+    "@stdlib/buffer-ctor": "^0.2.3",
     "@stdlib/buffer-from-arraybuffer": "^0.2.3",
     "@stdlib/buffer-from-string": "^0.2.3",
     "@stdlib/fs-read-file": "^0.2.3",
     "@stdlib/object-assign": "^0.2.3",
     "@stdlib/process-exec-path": "^0.2.3",
-    "@stdlib/random-base-randu": "^0.2.2",
-    "@stdlib/random-iter-randu": "^0.2.1",
+    "@stdlib/random-base-randu": "^0.2.3",
+    "@stdlib/random-iter-randu": "^0.2.2",
     "@stdlib/string-format": "^0.2.3",
     "@stdlib/utils-define-nonenumerable-property": "^0.2.3",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.3",
@@ -95,7 +95,7 @@
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
-    "@stdlib/bench-harness": "^0.2.2"
+    "@stdlib/bench-harness": "^0.2.3"
   },
   "engines": {
     "node": ">=0.10.0",
