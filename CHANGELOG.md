@@ -2,6 +2,43 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-04-29)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`0dc62ae`](https://github.com/stdlib-js/stdlib/commit/0dc62ae39a4817ff888e9736c3ea599f6beff4e5) - **build:** replace `eslint-plugin-node` with `eslint-plugin-n` [(#10952)](https://github.com/stdlib-js/stdlib/pull/10952) _(by Philipp Burckhardt, Athan Reines)_
+-   [`1e7e03b`](https://github.com/stdlib-js/stdlib/commit/1e7e03b9a3b56da409994059f6dbf54d318bcc28) - **bench:** refactor to use string interpolation in `streams` [(#11589)](https://github.com/stdlib-js/stdlib/pull/11589) _(by Karan Anand)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 3 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Karan Anand
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.2.3">
 
 ## 0.2.3 (2026-02-08)
